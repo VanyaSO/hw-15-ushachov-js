@@ -3,7 +3,7 @@
 const number = +prompt('Введите число');
 
 if(number < 1 || number == null){
-    console.log('NaN');
+    console.log(NaN);
 }else{
     for (let i = 2; i <= number; i++){
         if( number % i === 0 ){
